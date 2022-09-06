@@ -1,0 +1,39 @@
+:root{
+    --base:#6de120;
+    --spacing:10px;
+    --blur:10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.h1{
+    color: var(--base);
+}
+body{
+    text-align: center;
+}
+body{
+    background: rgb(32, 30, 30);
+    color: wheat;
+    font-family: cursive;
+    font-weight: 300;
+    font-size: 30px;
+    min-height: 100vh;
+}
+.controls{
+    margin-bottom: 30px;
+
+}
+a{
+    color: var(--base);
+    text-decoration: none;
+}
+input{
+    width: 100px;
+}
+img{
+    height: 400px;
+    rotate: 270deg;
+}
